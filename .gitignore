@@ -11,8 +11,10 @@ j2d-cli/.classpath
 j2d-cli/.gitignore
 j2d-cli/.project
 j2d-cli/.settings/
+j2d-cli/target
 javadoc2dash-api/.classpath
 javadoc2dash-api/.gitignore
 javadoc2dash-api/.project
 javadoc2dash-api/.settings/
+javadoc2dash-api/target
 
