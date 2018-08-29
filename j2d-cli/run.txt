@@ -1,1 +1,1 @@
---displayName OpenCV Java API 3.2.0 --icon C:\workspace\docs\javadoc\opencvjava320\icon.png --javadoc C:\workspace\docs\javadoc\opencvjava320 --keyword opencv_java_320 --name opencv_java_320 --out 
+java -jar j2d-cli-1.1.0-jar-with-dependencies.jar --displayName 'OpenCV Java API 3.2.0' --icon 'C:\workspace\docs\javadoc\opencvjava320\icon.png' --javadoc 'C:\workspace\docs\javadoc\opencvjava320' --keyword opencv_java_320 --name opencv_java_320 --out 'C:\workspace\docs\docset'

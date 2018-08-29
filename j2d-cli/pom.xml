@@ -13,7 +13,7 @@
 	<artifactId>j2d-cli</artifactId>
 	<name>j2d-cli</name>
 	<description>j2d-cli</description>
-	<version>1.1.0</version>
+	<version>${j2d-cli.version}</version>
 
 	<dependencies>
 		<dependency>
@@ -27,6 +27,25 @@
 	</dependencies>
 
 	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-assembly-plugin</artifactId>
+				<version>3.1.0</version>
+				<configuration>
+					<archive>
+						<manifest>
+							<mainClass>com.megatome.j2d.Main</mainClass>
+						</manifest>
+					</archive>
+					<descriptorRefs>
+						<descriptorRef>jar-with-dependencies</descriptorRef>
+					</descriptorRefs>
+				</configuration>
+			</plugin>
+
+		</plugins>
 	</build>
+
 
 </project>  
